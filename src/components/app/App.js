@@ -37,8 +37,7 @@ class App extends Component {
                         <CharList onCharSelected={this.onCharSelected}/>
                         <ErrorBoundery>
                             <CharInfo charId={this.state.selectedChar}/>
-                        </ErrorBoundery>
-                        
+                        </ErrorBoundery>                        
                     </div>
                     <img className="bg-decoration" src={decoration} alt="vision"/>
                 </main>
